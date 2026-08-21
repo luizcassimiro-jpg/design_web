@@ -9,5 +9,4 @@ function calcIdade(ano = 2026){
 }
 
 calcIdade();
-alert(`Fora da função : Idade ${calcIdade(Idade)}`);
 alert(`Fora da função : chamando calcIdade ${calcIdade(2027)}`)
