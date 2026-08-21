@@ -2,7 +2,7 @@ var nasc = 2009;
 let nome = "Yego";
 const viva = true;
 
-function calcIdade(ano){
+function calcIdade(ano = 2026){
     let Idade = ano - nasc;
     alert (`Dentro de função - Idade ${Idade}`)
     return Idade;
@@ -10,4 +10,4 @@ function calcIdade(ano){
 
 calcIdade();
 alert(`Fora da função : Idade ${calcIdade(Idade)}`);
-alert(`Fora da função : chamando calcIdade ${calcIdade()}`)
+alert(`Fora da função : chamando calcIdade ${calcIdade(2027)}`)
